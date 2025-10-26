@@ -20,9 +20,9 @@
         }
     </style>
 </head>
-<body class="font-marope bg-red-100 py-10">
+<body class="font-marope bg-red-100 py-10 ">
     <!-- navbar -->
-    <header>
+    <header class="max-w-10/12 mx-auto">
         <div class="navbar">
             <div class="navbar-start">
                 
@@ -56,7 +56,7 @@
         </div>
     </header>
     <!-- banner section -->
-    <section class="my-10">
+    <section class="my-10 max-w-10/12 mx-auto">
         <div class="card">
         <figure>
             <img
@@ -72,5 +72,85 @@
         </div>
         </div>
     </section>
+    
+
+        <!-- form section -->    
+    <section class="bg-[url('assets/bg.jpg')] bg-cover bg-center">
+        <div class="card max-w-10/12 mx-auto  py-10">
+            <!-- form texts -->
+            <div class="gap-8 lg:flex lg:justify-center flex-col items-center">
+                <div class="card-actions text-center">
+                    <button><a class="bg-lime-500/20 px-5 py-3 rounded-full font-bold"><i class="fa-solid fa-arrow-right p-2 text-black "></i>Let's Connect</a></button>
+                </div>
+                <h2 class="text-center text-3xl font-bold">A barn house of this design has a striking appearance</h2>
+                <p class="text-center font-medium text-gray-600 w-5/6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood ,sleek metal accents, and large windows that flood the space with natural light</p>
+            
+            </div>
+
+            <!-- form fields -->
+            <div class="card-body w-5/6 mx-auto">
+                <fieldset class="fieldset grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Left Column -->
+                <div class="col-span-1">
+                    <label class="label">First Name</label>
+                    <input type="text" class="input rounded-full w-full" placeholder="First Name" />
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-span-1">
+                    <label class="label">Last Name</label>
+                    <input type="text" class="input rounded-full w-full" placeholder="Last Name" />
+                </div>
+
+                <!-- Left Column -->
+                <div class="col-span-1">
+                    <label class="label">Email</label>
+                    <input type="email" class="input rounded-full w-full" placeholder="Email" />
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-span-1">
+                    <label class="label">Phone Number</label>
+                    <input type="number" class="input rounded-full w-full" placeholder="Phone Number" />
+                </div>
+
+                <!-- Full-width Textarea -->
+                <div class="col-span-full">
+                    <label class="label">Message</label>
+                    <textarea class="textarea rounded-2xl w-full" rows="6" placeholder="Write your message here..."></textarea>
+                </div>
+
+                <!-- Forgot Password + Button (Full Width) -->
+                <div class="col-span-full ">
+                    <button class="btn bg-lime-500 w-full rounded-full font-extrabold">Send Mail<i class="fa-solid fa-arrow-right p-1 bg-black text-white rounded-full -rotate-45 mx-2"></i></button>
+                </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black">
+        <div class="max-w-10/12 mx-auto space-y-7 py-15">
+            <!-- footer title -->
+            <div class="gap-8 lg:flex lg:justify-center flex-col items-center">
+                <div class="">
+                    <a class="text-3xl font-extrabold text-white "><i class="fa-solid fa-arrow-right p-1 bg-lime-300 rounded-full -rotate-45 mx-2 text-black"></i>Rinterio</a>
+                </div>
+                <p class="text-center font-medium text-gray-600 w-5/6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood ,sleek metal accents, and large windows that flood the space with natural light</p>
+            </div>
+            <div class=" lg:flex items-center justify-center">
+                <ul class="menu menu-horizontal px-1 space-x-4 text-gray-600 hover:text-black">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="lg:flex items-center justify-center text-center">
+                <button><a class=" bg-lime-400 px-5 py-3 rounded-full font-bold">Book Consult<i class="fa-solid fa-arrow-right p-2 ml-2 bg-black text-white rounded-full -rotate-45 "></i></a></button>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet House</title>
+    <!-- font-manrope -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- tailwind or daisy -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome -->
+     <script src="https://kit.fontawesome.com/51720fd0e9.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-marope{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-marope bg-red-100">
+    <!-- navbar -->
+    <header>
+        <div class="navbar">
+            <div class="navbar-start">
+                
+                <a class="text-xl font-extrabold"><i class="fa-solid fa-arrow-right p-1 bg-lime-300 rounded-full -rotate-45 mx-2"></i>Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 space-x-4 text-gray-600 hover:text-black">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end hidden lg:flex space-x-3">
+                <i class="fa-solid fa-cart-shopping bg-white p-2 rounded-full"></i>
+                <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-full"></i>
+                <a class="bg-lime-400 p-2 px-3 rounded-full">Book Consult <i class="fa-solid fa-arrow-right p-1 bg-black text-white rounded-full -rotate-45 "></i></a>
+            </div>
+            <div class="dropdown navbar-end lg:hidden">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16 M4 12h16 M4 18h16" /> </svg>
+                </div>
+                <ul
+                    tabindex="-1"
+                    class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- banner section -->
+    <section>
+        <div></div>
+    </section>
+</body>
+</html>
